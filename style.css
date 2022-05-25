@@ -1,0 +1,98 @@
+body{
+  display:flex;
+  flex-direction:column; 
+  min-height:100vh;
+  background-color:rgb(30, 29, 29); 
+  color:white;
+}
+header{
+  padding:2rem 1rem;
+  max-width:800px;
+  width:100%;
+  margin:0% 29%;
+}
+header h1{
+  margin:0% 8%;
+  font-size:80px;
+  color:rgb(198, 199, 199);
+}
+ #new-task-input{
+   border-radius:6px;
+   text-align:center;
+   margin:0.5rem;
+   padding:0.3rem;
+   font-size:1.25rem;
+   border-style:solid;
+   border-color:rgb(136, 139, 139);
+   background-color:grey;
+   color:black;
+ }
+ #new-task-input::placeholder {
+	color:black;
+}
+ #new-task-submit{
+  border-radius:6px;
+  text-align:center;
+  border-style:solid;
+  padding:0.3rem;
+  font-size:1.25rem;
+  border-color:rgb(136, 139, 139);
+  cursor:pointer;
+  transition:0.4s;
+  background-color:grey;
+   color:black;
+}
+.task-list{
+  margin:10px auto;
+  text-align:center;
+}
+h2{
+  font-size:200%;
+  color:rgb(198, 199, 199);
+}
+
+#tasks .task{
+  display:flex;
+  margin-right:50%;
+  padding:0.3rem;
+  font-size:1.25rem;
+  border-color:rgb(136, 139, 139);
+  text-align:center;
+  margin:0% 30%;
+}
+
+#tasks .task .content input{
+  border-radius:6px;
+  
+}
+#tasks .task .content .text{
+  text-align:center;
+  border-style:solid;
+  padding:0.3rem;
+  font-size:1.25rem; 
+  transition:0.4s;
+  background-color:grey;
+   color:black;
+}
+ .task .actions button{
+   cursor:pointer;
+   transition:0.4s;
+   border-radius:6px;
+  text-align:center;
+  border-style:solid;
+  padding:0.3rem;
+  font-size:1.25rem;
+ 
+   
+ }
+ .task .actions .edit{
+   color:rgb(41, 8, 143);
+   font-weight:bold;
+   background-color:grey;
+ }
+ .task .actions .delete{
+  color:rgb(150, 8, 8);
+  font-weight:bold;
+  background-color:grey;
+}
+
